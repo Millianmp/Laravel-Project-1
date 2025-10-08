@@ -1,6 +1,8 @@
 <?php
 
 use App\Http\Controllers\ClassroomController;
+use App\Http\Controllers\SubjectController;
+use App\Http\Controllers\TeacherController;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\DashboardController;
 use App\Http\Controllers\ContactController;
@@ -21,4 +23,6 @@ Route::get('/profile', [ProfileController::class, 'index']);
 Route::get('/guardians', [GuardianController::class, 'index']);
 Route::get('/classroom', [ClassroomController::class, 'index']);
 Route::resource('student', StudentController::class);
+Route::resource('teacher', TeacherController::class);
+Route::resource('subject', SubjectController::class);
 
