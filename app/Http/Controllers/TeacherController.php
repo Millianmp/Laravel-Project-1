@@ -9,10 +9,9 @@ class TeacherController extends Controller
 {
     public function index()
     {
-        // ambil semua data guru dari database
+
         $teachers = Teacher::all();
 
-        // kirim ke view
-        return view('teacher', compact('teachers'));
+        return view('Tailwindpages.teacher', compact('teachers'));
     }
 }

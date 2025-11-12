@@ -10,8 +10,6 @@ class ClassroomController extends Controller
     public function index()
     {
         $classrooms = Classroom::all();
-        return view('classroom', compact('classrooms'));
-        
+        return view('TailwindPages.Classroom', compact('classrooms'));
     }
-    
 }

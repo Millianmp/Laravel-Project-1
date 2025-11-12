@@ -14,15 +14,17 @@
           <!-- Menu desktop -->
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
-                 <x-nav-link href="/dashboard" :active=" request() -> is('dashboard')">Dashboard</x-nav-link>
-                 <x-nav-link href="/contact" :active="request() -> is('contact')">Contact</x-nav-link>
-                 <x-nav-link href="/profile" :active="request()->is('profile')">Profile</x-nav-link>
-                 <x-nav-link href="/student" :active="request()->is('student')">Student</x-nav-link>
-                 <x-nav-link href="/guardians" :active="request()->is('guardians')">Guardian</x-nav-link>
-                 <x-nav-link href="/classroom" :active="request()->is('classroom')">Classroom</x-nav-link>
-                 <x-nav-link href="/teacher" :active="request()->is('teacher')">Teacher</x-nav-link>
-                 <x-nav-link href="/subject" :active="request()->is('subject')">Subject</x-nav-link>
-            </div>
+<x-tailwindnav.nav-link href="/dashboard" :active="request()->is('dashboard')">Dashboard</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/contact" :active="request()->is('contact')">Contact</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/profile" :active="request()->is('profile')">Profile</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/student" :active="request()->is('student')">Student</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/guardians" :active="request()->is('guardians')">Guardian</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/classroom" :active="request()->is('classroom')">Classroom</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/teacher" :active="request()->is('teacher')">Teacher</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/subject" :active="request()->is('subject')">Subject</x-tailwindnav.nav-link>
+  <x-tailwindnav.nav-link href="/admin/dashboard" :active="request()->is('admin/dashboard')">Admin</x-tailwindnav.nav-link>
+
+                </div>
           </div>
         </div>
 

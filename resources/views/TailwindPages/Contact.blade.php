@@ -1,4 +1,4 @@
-<x-layout>
+<x-tailwindnav.layout>
     <x-slot:judul>Contact</x-slot:judul>
   <h1>Contact</h1>
   <ul>
@@ -6,4 +6,4 @@
     <li>Instagram: @nael</li>
     <li>WhatsApp: 088227727595</li>
   </ul>
-</x-layout>
+</x-tailwindnav.layout>
